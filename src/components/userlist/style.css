@@ -1,0 +1,71 @@
+/* Estilos generales */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Tabla */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.users-table th {
+  background-color: #667eea;
+  color: white;
+}
+
+.users-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Botones */
+.edit-btn,
+.delete-btn {
+  padding: 8px 12px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Botón Editar */
+.edit-btn {
+  background-color: #48bb78;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #38a169;
+}
+
+/* Botón Eliminar */
+.delete-btn {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c53030;
+}
