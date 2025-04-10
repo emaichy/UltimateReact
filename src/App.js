@@ -19,7 +19,7 @@ function App() {
   const handleDelete = async (userId) => {
     console.log('Eliminar usuario con ID:', userId);
     try {
-      const response = await fetch(`https://18.217.188.192/users/${userId}`, { method: 'DELETE' });
+      const response = await fetch(`https://3.145.97.1/users/${userId}`, { method: 'DELETE' });
   
       if (!response.ok) {
         throw new Error("Error al eliminar el usuario en la base de datos");

@@ -14,7 +14,7 @@ const Register = () => {
     setError("");
 
     try {
-      const response = await fetch("https://18.217.188.192/users/", {
+      const response = await fetch("https://3.145.97.1/users/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
