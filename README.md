@@ -1,4 +1,4 @@
-#UltimateReact - Frontend
+# UltimateReact - Frontend
 
 Este repositorio contiene el desarrollo del frontend del proyecto Sistema de Basura Inteligente. Realizado con ReactJS y Vite, permite la interacción de los usuarios con el sistema desde una interfaz web.
 
